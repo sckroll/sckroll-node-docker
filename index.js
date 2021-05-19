@@ -52,7 +52,7 @@ app.use(express.json())
 
 // 라우트 설정
 app.get('/api/v1', (req, res) => {
-  res.send('<h2>Sckroll pushing changes test</h2>')
+  res.send('<h2>Sckroll pushing changes test 2nd</h2>')
   console.log('hell yeah')
 })
 app.use('/api/v1/posts', postRouter)
